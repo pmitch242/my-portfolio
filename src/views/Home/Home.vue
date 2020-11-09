@@ -2,19 +2,21 @@
   <div class="home">
     <Hero />
     <Services />
-    <h1>First Vue App</h1>
+    <Offer />
   </div>
 </template>
 
 <script>
 import Hero from "./Hero";
 import Services from "./Services";
+import Offer from "./Offer";
 
 export default {
   name: "Home",
   components: {
     Hero,
-    Services
+    Services,
+    Offer
   }
 };
 </script>
