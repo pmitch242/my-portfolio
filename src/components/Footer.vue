@@ -19,6 +19,10 @@ export default {
 </script>
 
 <style scoped>
+#footer img {
+  position: absolute;
+}
+
 .footer-span-container {
   display: flex;
   flex-direction: column;

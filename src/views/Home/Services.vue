@@ -1,5 +1,10 @@
 <template>
-  <div id="services">
+  <div id="service">
+    <img
+      id="services-bg-img"
+      src="../../images/services-bg.png"
+      alt="services-bacground"
+    />
     <div class="container">
       <div class="services-bg">
         <div class="columns">
@@ -180,6 +185,15 @@ export default {
 </script>
 
 <style>
+#service {
+  background-color: #264653;
+}
+#services-bg-img {
+  position: absolute;
+  top: 84%;
+  width: 100%;
+  height: 75%;
+}
 .service-card {
   text-align: center;
 }
