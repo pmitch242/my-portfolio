@@ -1,24 +1,32 @@
 <template>
   <div id="app">
-    <!-- <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div> -->
+    <div id="nav">
+      <b-navbar>
+        <template slot="brand" class="primary">
+          <b-navbar-item>
+            <span class="logo">Phill<span>Mitchell</span></span>
+          </b-navbar-item>
+        </template>
+
+        <!-- These links will colapes -->
+        <template slot="end">
+          <b-navbar-item>
+            home
+          </b-navbar-item>
+          <b-navbar-item>
+            portfolio
+          </b-navbar-item>
+          <b-navbar-item>
+            about
+          </b-navbar-item>
+          <b-navbar-item>
+            contact
+          </b-navbar-item>
+        </template>
+      </b-navbar>
+    </div>
     <router-view />
   </div>
 </template>
 
 <script></script>
-
-<style>
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-}
-</style>
