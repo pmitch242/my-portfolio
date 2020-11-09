@@ -5,9 +5,18 @@ html {
   scroll-behavior: smooth;
 }
 
-// @media screen and (max-width: $tablet) {
-//   .columns {
-//     margin-left: 0;
-//     margin-right: 0;
-//   }
-// }
+h1{
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 60px;
+}
+h2{}
+h3{}
+h4{}
+h5{}
+h6{}
+
+.subtitle{
+  color: $p-grey;
+  font-size: 1.25rem;
+}
