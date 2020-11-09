@@ -5,6 +5,7 @@
     <Offer />
     <Portfolio />
     <About />
+    <Contact />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Services from "./Services";
 import Offer from "./Offer";
 import Portfolio from "./Portfolio";
 import About from "./About";
+import Contact from "./Contact";
 
 export default {
   name: "Home",
@@ -22,7 +24,8 @@ export default {
     Services,
     Offer,
     Portfolio,
-    About
+    About,
+    Contact
   }
 };
 </script>
