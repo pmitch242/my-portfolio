@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div id="home">
     <Hero />
     <Services />
     <Offer />
@@ -29,3 +29,9 @@ export default {
   }
 };
 </script>
+
+<style>
+#home {
+  background-color: #ffffff;
+}
+</style>

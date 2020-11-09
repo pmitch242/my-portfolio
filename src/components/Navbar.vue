@@ -2,7 +2,6 @@
   <div id="nav">
     <div class="container">
       <b-navbar>
-        <div class="container"></div>
         <template slot="brand" class="primary">
           <b-navbar-item>
             <span class="logo">Phill<span>Mitchell</span></span>
@@ -34,3 +33,15 @@ export default {
   name: "Navbar"
 };
 </script>
+
+<style>
+#nav {
+  position: sticky;
+  top: 0;
+  z-index: 10000;
+}
+
+.navbar {
+  background-color: transparent;
+}
+</style>

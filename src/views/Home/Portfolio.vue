@@ -47,3 +47,9 @@ export default {
   name: "Portfolio"
 };
 </script>
+
+<style>
+#portfolio {
+  background-color: #ffffff;
+}
+</style>

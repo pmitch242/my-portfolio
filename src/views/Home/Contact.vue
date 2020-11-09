@@ -1,5 +1,5 @@
 <template>
-  <div class="contact">
+  <div id="contact">
     <div class="container">
       <div class="title-div">
         <h2 class="">
@@ -125,3 +125,9 @@ export default {
   name: "Contact"
 };
 </script>
+
+<style>
+#contact {
+  background-color: #ffffff;
+}
+</style>

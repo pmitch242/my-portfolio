@@ -1,5 +1,10 @@
 <template>
   <div id="about">
+    <img
+      class="about-bg-img"
+      src="../../images/background-rec.png"
+      alt="rec-bg"
+    />
     <div class="container">
       <div class="columns">
         <div class="column is-half">
@@ -36,3 +41,16 @@ export default {
   name: "About"
 };
 </script>
+
+<style>
+#about {
+  background-color: #ffffff;
+}
+
+.about-bg-img {
+  position: absolute;
+  width: 65%;
+  /* top: -22%; */
+  right: -40%;
+}
+</style>
