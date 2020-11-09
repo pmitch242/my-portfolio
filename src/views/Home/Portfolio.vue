@@ -44,6 +44,6 @@
 
 <script>
 export default {
-  name: "Portfolio",
+  name: "Portfolio"
 };
 </script>
