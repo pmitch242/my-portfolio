@@ -9,12 +9,41 @@
           </span>
         </div>
       </div>
+      <div class="columns">
+        <div class="column">
+          <img src="../../images/projects/je-sutton.png" alt="project-image" />
+        </div>
+        <div class="column">
+          <h4 class="">Title</h4>
+          <p class="">description</p>
+          <ul id="badges">
+            <li class="badges">badge title</li>
+            <li class="badge-button">button</li>
+          </ul>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <h4 class="">Title</h4>
+          <p class="">description</p>
+          <ul id="badges">
+            <li class="badges">badge title</li>
+            <li class="badge-button">button</li>
+          </ul>
+        </div>
+        <div class="column">
+          <img
+            src="../../images/projects/morgan-state.png"
+            alt="project-image"
+          />
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Portfolio"
+  name: "Portfolio",
 };
 </script>
