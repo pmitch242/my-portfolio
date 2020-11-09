@@ -1,0 +1,13 @@
+@import './variables.scss';
+@import './lib/bulma.scss';
+
+html {
+  scroll-behavior: smooth;
+}
+
+// @media screen and (max-width: $tablet) {
+//   .columns {
+//     margin-left: 0;
+//     margin-right: 0;
+//   }
+// }
